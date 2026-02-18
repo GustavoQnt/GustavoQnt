@@ -128,10 +128,11 @@ Implementação modular de blockchain com **SHA256 hashing**, **Merkle tree**, *
 ## 🌐 Contato
 
 <p align="center">
-  <a href="mailto:SEU_EMAIL_AQUI">
+  <a href="mailto:gstvquintela@gmail.com">
     <img src="https://img.shields.io/badge/Email-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN_AQUI">
+  <a href="https://www.linkedin.com/in/SEU_LINKEDIN_AQUI](https://www.linkedin.com/in/gustavo-quintela-75b9853b1/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
+
