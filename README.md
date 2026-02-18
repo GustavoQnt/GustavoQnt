@@ -32,13 +32,34 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 
 ## 🛠️ Stack
 
+**Languages & Runtime**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,nextjs,tailwind,java,spring,cs,dotnet,postgres,mongodb,redis,docker,git,github,vscode&perline=9" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,java&perline=6" />
+</p>
+
+**Backend & APIs**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,fastify,express,spring,dotnet&perline=6" />
+</p>
+
+**Frontend**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind&perline=4" />
+</p>
+
+**Databases & Cache**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite&perline=5" />
+</p>
+
+**DevOps & Cloud**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,git,github&perline=6" />
 </p>
 
 ---
 
-## 📊 Estatísticas
+## 📊 Estatísticas & Contribuições
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=GustavoQnt&show_icons=true&theme=tokyonight&rank_icon=github&include_all_commits=true&locale=pt-br" />
@@ -50,52 +71,57 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GustavoQnt&theme=tokyonight&row=1&column=7&margin-w=8&margin-h=8" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/7c3aed/GustavoQnt" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ghchart.rshah.org/6d28d9/GustavoQnt" />
+    <img alt="GitHub Contribution Graph" src="https://ghchart.rshah.org/7c3aed/GustavoQnt" />
+  </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GustavoQnt&theme=tokyo-night&hide_border=true" />
-</p>
+---
+
+## 💡 Core Skills
+
+| Categoria | Skills |
+|-----------|--------|
+| **Backend & APIs** | NestJS (DI, Guards, Interceptors), Fastify, Express, Node.js, ASP.NET Core, gRPC, RESTful APIs, WebSockets (Socket.IO), Microservices |
+| **Databases** | PostgreSQL, MySQL, MongoDB, MS SQL Server, Redis (caching, distributed locks, sessions), SQLite |
+| **ORMs & Migrations** | Prisma, TypeORM, Drizzle, Entity Framework Core, NHibernate, Alembic |
+| **Async & Scaling** | BullMQ + Redis (background jobs, DLQ, retries), Bull Board, event-driven architecture, distributed locks, single-flight pattern |
+| **Cloud & Infrastructure** | AWS (Lambda, EC2, S3, CloudFront, SQS, Cognito), Docker, Kubernetes, Terraform, CI/CD |
+| **Reliability** | State machines, circuit breakers, **idempotency**, **retry logic with backoff**, health checks, request deduplication |
+| **Auth & Security** | JWT, Clerk, AWS Cognito, OAuth, HMAC signing |
+| **Observability** | ELK Stack, structured logging, event tracking, SonarQube, alerting |
+| **Integrations** | Stripe, Twilio, Firebase, Google Vision, FFmpeg |
+| **Practices** | TDD, BDD, SOLID, Clean Architecture, Git workflows |
+
+---
 
 ---
 
 ## 📌 Projetos em destaque
 
-### 🔑 [idempotency-kit](https://github.com/GustavoQnt/idempotency-kit) — Idempotência para Node.js
-> Toolkit de idempotência com **deduplicação de requests in-flight** e **cache de respostas com TTL**. Evita reprocessamento de operações duplicadas em APIs — basta um idempotency key.
+### 🔑 [idempotency-kit](https://github.com/GustavoQnt/idempotency-kit)
+**Idempotência para Node.js** | TypeScript
+Toolkit de idempotência com **deduplicação de requests in-flight** e **cache de respostas com TTL**. Evita reprocessamento de operações duplicadas em APIs — basta um idempotency key. ⭐ Request deduplication • TTL caching • Promise memoization
 
-<p align="center">
-  <a href="https://github.com/GustavoQnt/idempotency-kit">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoQnt&repo=idempotency-kit&theme=tokyonight" />
-  </a>
-</p>
+---
 
-### ⚡ [ttl-cache](https://github.com/GustavoQnt/library) — Cache in-memory com TTL + LRU + SWR
-> Cache com **LRU eviction**, **TTL expiration**, **stale-while-revalidate** e **request deduplication**. Zero dependências, O(1) lookup, event emitter para observabilidade.
+### ⚡ [swr-lru-cache](https://github.com/GustavoQnt/swr-lru-cache)
+**Cache in-memory com TTL + LRU + SWR** | TypeScript
+Cache com **LRU eviction**, **TTL expiration**, **stale-while-revalidate** e **request deduplication**. Zero dependências, O(1) lookup, event emitter para observabilidade. ⭐ SWR pattern • LRU eviction • Zero deps
 
-<p align="center">
-  <a href="https://github.com/GustavoQnt/library">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoQnt&repo=library&theme=tokyonight" />
-  </a>
-</p>
+---
 
-### 📬 [hooksmith](https://github.com/GustavoQnt/hooksmith) — Webhook delivery engine em Rust
-> Sistema de **entrega de webhooks** com **retry**, **HMAC signing**, **idempotência** e **event tracking**. Construído com Axum + Tokio + SQLite para performance e confiabilidade.
+### 📬 [hooksmith](https://github.com/GustavoQnt/hooksmith)
+**Webhook delivery engine** | Rust
+Sistema de **entrega de webhooks** com **retry**, **HMAC signing**, **idempotência** e **event tracking**. Construído com Axum + Tokio + SQLite para performance e confiabilidade. ⭐ Async delivery • HMAC signing • Event sourcing
 
-<p align="center">
-  <a href="https://github.com/GustavoQnt/hooksmith">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoQnt&repo=hooksmith&theme=tokyonight" />
-  </a>
-</p>
+---
 
-### 🧱 [blockchain](https://github.com/GustavoQnt/blockchain) — Blockchain em C# / .NET 8
-> Implementação modular de blockchain com **SHA256 hashing**, **Merkle tree**, **validação de transações**, **mempool** e **mining**. Clean Architecture com API REST, CLI e testes unitários.
-
-<p align="center">
-  <a href="https://github.com/GustavoQnt/blockchain">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoQnt&repo=blockchain&theme=tokyonight" />
-  </a>
-</p>
+### 🧱 [blockchain](https://github.com/GustavoQnt/blockchain)
+**Blockchain Implementation** | C# / .NET 8
+Implementação modular de blockchain com **SHA256 hashing**, **Merkle tree**, **validação de transações**, **mempool** e **mining**. Clean Architecture com API REST, CLI e testes unitários. ⭐ DDD • Clean Architecture • Comprehensive tests
 
 ---
 
