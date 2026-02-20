@@ -34,12 +34,17 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 
 **Languages & Runtime**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,java&perline=6" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,c&perline=6" />
 </p>
 
 **Backend & APIs**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,fastify,express,spring,dotnet&perline=6" />
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,dotnet&perline=4" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/fastify/FFFFFF" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/fastify/000000" />
+    <img src="https://cdn.simpleicons.org/fastify/000000" alt="Fastify" height="48" />
+  </picture>
 </p>
 
 **Frontend**
@@ -62,8 +67,8 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 ## 📊 Estatísticas & Contribuições
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GustavoQnt&show_icons=true&theme=tokyonight&rank_icon=github&include_all_commits=true&locale=pt-br" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoQnt&layout=compact&theme=tokyonight&langs_count=8" />
+  <img height="170" src="https://github-readme-stats-salesp07.vercel.app/api?username=GustavoQnt&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10&include_all_commits=true&hide=stars,prs,contribs&locale=pt-br" />
+  <img height="170" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=GustavoQnt&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" />
 </p>
 
 <p align="center">
@@ -135,6 +140,3 @@ Implementação modular de blockchain com **SHA256 hashing**, **Merkle tree**, *
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
-
-
-
