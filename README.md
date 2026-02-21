@@ -39,7 +39,7 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 
 **Backend & APIs**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,dotnet&perline=4" />
+  <img src="https://skillicons.dev/icons?i=nodejs,bun,nestjs,express,dotnet&perline=5" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/fastify/FFFFFF" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/fastify/000000" />
@@ -140,3 +140,4 @@ Implementação modular de blockchain com **SHA256 hashing**, **Merkle tree**, *
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
+
