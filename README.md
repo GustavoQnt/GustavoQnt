@@ -34,12 +34,12 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 
 **Languages & Runtime**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,c&perline=6" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,c,elixir&perline=7" />
 </p>
 
 **Backend & APIs**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,bun,nestjs,express,dotnet,elixir&perline=5" />
+  <img src="https://skillicons.dev/icons?i=nodejs,bun,nestjs,express,dotnet&perline=5" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/fastify/FFFFFF" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/fastify/000000" />
