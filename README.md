@@ -34,7 +34,7 @@ Meus projetos são ferramentas de produção: zero dependências desnecessárias
 
 **Languages & Runtime**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,c,elixir,golang&perline=7" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,rust,c,elixir,go&perline=7" />
 </p>
 
 **Backend & APIs**
